@@ -75,8 +75,32 @@ git merge new_feature
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
+pull request allow team members to review, amend and approve code before merging hence facilitating quality control.
+
+steps involved in creating and merging a pull request
+
+step 1:Create a Branch & Push Changes
+git checkout -b feature-branch
+git push -u origin feature-branch
+
+step 2: Open a Pull Request on GitHub
+go to your repository, click "compare and pull requests". add a title, description and request reviews
+
+step 3: Review & Discuss Changes
+the code is reviewed and changes made if necessary
+
+step 4: Merge the Pull Request
+click merge pull requests.
+
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+ forking is simply to make a copy of someone else's project in your own GitHub account. 
+ Forking: Creates a separate repository under your account on GitHub. You can propose changes to the original repo via pull requests.
+Cloning: Downloads a local copy of a repository for offline development but remains linked to the original repo for direct contributions.
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
+common challenges
+a) Merge Conflicts – Occur when multiple people edit the same file.
+b) Improper Commit Practices – Large, unclear commits make tracking changes difficult.
+c) Not Using Branching Effectively – Editing directly on the main branch can cause instability.
